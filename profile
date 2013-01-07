@@ -1,3 +1,8 @@
+# Allow users to specify their own ~/.profile
+if [ -f ~/.profile.`whoami` ]; then
+    source ~/.profile.`whoami`
+fi
+
 # Aliases
 alias ls='ls -la'
 
