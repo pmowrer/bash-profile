@@ -3,6 +3,9 @@ if [ -f ~/.profile.`whoami` ]; then
     source ~/.profile.`whoami`
 fi
 
+# Path
+export PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+
 # Aliases
 alias ls='ls -la'
 
