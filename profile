@@ -34,3 +34,9 @@ if [ -f /usr/bin/git ]; then
     git config --global color.branch True
 fi
 
+# cd into whatever is the forefront Finder window.
+# from: https://github.com/paulirish/dotfiles/commit/e67d1bc03
+cdf() {  # short for cdfinder
+  cd "`osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)'`"
+}
+
