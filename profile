@@ -4,7 +4,7 @@ if [ -f ~/.profile.`whoami` ]; then
 fi
 
 # Path
-export PATH='/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 # Aliases
 alias ls='ls -la'
