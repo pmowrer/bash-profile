@@ -4,7 +4,7 @@
 # existing files.
 
 # Currently only doing this for .profile
-files="profile"
+files="profile gitconfig"
 date=`date +"%Y%m%d"`
 
 for file in $files; do

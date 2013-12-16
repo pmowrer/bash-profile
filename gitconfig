@@ -1,0 +1,8 @@
+[color]
+	diff = True
+	branch = True
+
+[alias]
+    st = status
+    co = checkout
+    ci = commit
