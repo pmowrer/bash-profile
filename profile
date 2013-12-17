@@ -25,7 +25,7 @@ git_prompt='/usr/local/opt/git/etc/bash_completion.d/git-prompt.sh'
 source $git_completion
 source $git_prompt
 
-PS1='\u@\h \W$(__git_ps1 " [\[\e[34;1m\]%s\[\e[0m\]]")\$ '
+PS1='\u@\h \t \W$(__git_ps1 " [\[\e[34;1m\]%s\[\e[0m\]]")\$ '
 
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
