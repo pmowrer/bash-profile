@@ -1,8 +1,11 @@
+[alias]
+	st = status
+	co = checkout
+    ci = commit
+[user]
+	name = Patrick Mowrer
+	email = pmowrer@gmail.com
 [color]
+	ui = True
 	diff = True
 	branch = True
-
-[alias]
-    st = status
-    co = checkout
-    ci = commit
