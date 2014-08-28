@@ -1,11 +1,18 @@
 [alias]
-	st = status
-	co = checkout
+    st = status
+    co = checkout
     ci = commit
+    chp = cherry-pick
+    # Reset current branch to its upstream HEAD
+    ru = "!git reset --hard upstream/\"$(git rev-parse --abbrev-ref HEAD)\""
+    # From: http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/ 
+    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+
 [user]
-	name = Patrick Mowrer
-	email = pmowrer@gmail.com
+    name = Patrick Mowrer
+    email = pmowrer@gmail.com
+
 [color]
-	ui = True
-	diff = True
-	branch = True
+    ui = True
+    diff = True
+    branch = True
